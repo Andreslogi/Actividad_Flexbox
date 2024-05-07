@@ -1,0 +1,511 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: rgb(192,192,232);
+    margin-right: 50px;
+    margin-left: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p{
+    text-align: justify;
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+
+img{
+    width: 100%;
+
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.aside{
+    background-color: rgb(119, 167, 167);
+    flex: 30%;
+    padding: 10%;
+}
+
+.aside img{
+    width: 80%;
+    margin: 5px auto;
+    display: block;
+}
+
+.section{
+    background-color: rgb(125,136,179);
+    flex: 70%;
+    padding: 10px;
+}
+
+.video{
+    margin: auto;
+    display: block;
+    width: 80%;
+}
+
+.tarjetas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.tarjetas .card{
+    background-color: rgb(198, 77, 34);
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border: 2px dotted rgb(90, 220, 170);
+    border-radius: 30px;
+    box-shadow: 7px 7px #000;
+    padding: 10px;
+    overflow: auto;
+    aspect-ratio: 700px / 800px;
+}
+
+.tarjetas .card .contenido img{
+    display: block;
+    margin: auto;
+    width: 110%;
+}
+
+.tarjetas .card .contenido .centrar{
+    text-align: center;
+    color: blue;
+    border-bottom: 2px dotted rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.cuadro{
+    background-color: coral;
+    display: flex;
+    margin-bottom: 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    }
+
+.cuadro .imagen{
+    flex: 40%;
+}
+
+.cuadro .imagen img{
+    width: 50%;
+}
+
+.cuadro .texto{
+    flex: 65%;
+}
+
+
+.Planetas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    width: 700px;
+    height: 700px;
+    
+}
+
+.titulo{
+    text-align: center;
+    background-color: black;
+    color: bisque;
+    font-size: 50px;
+}
+
+.tarjetasPlanetas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.tarjetasPlanetas .cardMercurio{
+    background-color: rgba(50, 196, 219, 0.282);
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border: 2px dotted rgb(255, 255, 255);
+    border-radius: 30px;
+    box-shadow: 7px 7px #000;
+    padding: 10px;
+    overflow: auto;
+    aspect-ratio: 700px / 800px;
+}
+
+.tarjetasPlanetas .cardMercurio .centrarMercurio{
+    text-align: center;
+    color: rgba(67, 18, 18, 0.515);
+    border-bottom: 2px dotted rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.tarjetasPlanetas .cardMercurio .contenidoMercurio img{
+    display: block;
+    margin: auto;
+    width: 110%;
+}
+
+.tarjetasPlanetas .cardVenus{
+    background-color: rgba(50, 196, 219, 0.282);
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border: 2px dotted rgb(255, 255, 255);
+    border-radius: 30px;
+    box-shadow: 7px 7px #000;
+    padding: 10px;
+    overflow: auto;
+    aspect-ratio: 700px / 800px;
+}
+
+.tarjetasPlanetas .cardVenus .centrarVenus{
+    text-align: center;
+    color: rgba(67, 18, 18, 0.515);
+    border-bottom: 2px dotted rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.tarjetasPlanetas .cardVenus .contenidoVenus img{
+    display: block;
+    margin: auto;
+    width: 110%;
+}
+
+.tarjetasPlanetas .cardTierra{
+    background-color: rgba(50, 196, 219, 0.282);
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border: 2px dotted rgb(255, 255, 255);
+    border-radius: 30px;
+    box-shadow: 7px 7px #000;
+    padding: 10px;
+    overflow: auto;
+    aspect-ratio: 700px / 800px;
+}
+
+.tarjetasPlanetas .cardTierra .centrarTierra{
+    text-align: center;
+    color:rgba(67, 18, 18, 0.515);
+    border-bottom: 2px dotted rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.tarjetasPlanetas .cardTierra .contenidoTierra img{
+    display: block;
+    margin: auto;
+    width: 110%;
+}
+
+.tarjetasPlanetas .cardMarte{
+    background-color: rgba(50, 196, 219, 0.282);
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border: 2px dotted rgb(255, 255, 255);
+    border-radius: 30px;
+    box-shadow: 7px 7px #000;
+    padding: 10px;
+    overflow: auto;
+    aspect-ratio: 700px / 800px;
+}
+
+.tarjetasPlanetas .cardMarte .centrarMarte{
+    text-align: center;
+    color: rgba(67, 18, 18, 0.515);
+    border-bottom: 2px dotted rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.tarjetasPlanetas .cardMarte .contenidoMarte img{
+    display: block;
+    margin: auto;
+    width: 110%;
+}
+
+.tarjetasPlanetas .cardJupiter{
+    background-color: rgba(50, 196, 219, 0.282);
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border: 2px dotted rgb(255, 255, 255);
+    border-radius: 30px;
+    box-shadow: 7px 7px #000;
+    padding: 10px;
+    overflow: auto;
+    aspect-ratio: 700px / 800px;
+}
+
+.tarjetasPlanetas .cardJupiter .centrarJupiter{
+    text-align: center;
+    color: rgba(67, 18, 18, 0.515);
+    border-bottom: 2px dotted rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.tarjetasPlanetas .cardJupiter .contenidoJupiter img{
+    display: block;
+    margin: auto;
+    width: 110%;
+}
+
+.tarjetasPlanetas .cardSaturno{
+    background-color: rgba(50, 196, 219, 0.282);
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border: 2px dotted rgb(255, 255, 255);
+    border-radius: 30px;
+    box-shadow: 7px 7px #000;
+    padding: 10px;
+    overflow: auto;
+    aspect-ratio: 700px / 800px;
+}
+
+.tarjetasPlanetas .cardSaturno .centrarSaturno{
+    text-align: center;
+    color: rgba(67, 18, 18, 0.515);
+    border-bottom: 2px dotted rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.tarjetasPlanetas .cardSaturno .contenidoSaturno img{
+    display: block;
+    margin: auto;
+    width: 110%;
+}
+
+.tarjetasPlanetas .cardUrano{
+    background-color: rgba(50, 196, 219, 0.282);
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border: 2px dotted rgb(255, 255, 255);
+    border-radius: 30px;
+    box-shadow: 7px 7px #000;
+    padding: 10px;
+    overflow: auto;
+    aspect-ratio: 700px / 800px;
+}
+
+.tarjetasPlanetas .cardUrano .centrarUrano{
+    text-align: center;
+    color: rgba(67, 18, 18, 0.515);
+    border-bottom: 2px dotted rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.tarjetasPlanetas .cardUrano .contenidoUrano img{
+    display: block;
+    margin: auto;
+    width: 110%;
+}
+
+.tarjetasPlanetas .cardNeptuno{
+    background-color: rgba(50, 196, 219, 0.282);
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border: 2px dotted rgb(255, 255, 255);
+    border-radius: 30px;
+    box-shadow: 7px 7px #000;
+    padding: 10px;
+    overflow: auto;
+    aspect-ratio: 700px / 800px;
+}
+
+.tarjetasPlanetas .cardNeptuno .centrarNeptuno{
+    text-align: center;
+    color: rgba(67, 18, 18, 0.515);
+    border-bottom: 2px dotted rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.tarjetasPlanetas .cardNeptuno .contenidoNeptuno img{
+    display: block;
+    margin: auto;
+    width: 110%;
+}
+
+.titulo_galaxias{
+    text-align: center;
+    background-color: black;
+    color: bisque;
+    font-size: 50px;
+}
+
+.cuadroGalaxiavl{
+    background-color: rgba(58, 41, 33, 0.611);
+    display: flex;
+    margin-bottom: 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.cuadroGalaxiavl .imagenGalaxiavl{
+    flex: 40%;
+}
+
+.cuadroGalaxiavl .imagenGalaxiavl img{
+    width: 300px;
+}
+
+.cuadroGalaxiavl .textovl{
+    flex: 65%;
+}
+
+.cuadroPh{
+    background-color: rgba(58, 41, 33, 0.611);
+    display: flex;
+    margin-bottom: 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.cuadroPh .imagenPh{
+    flex: 40%;
+}
+
+.cuadroPh .imagenPh img{
+    width: 300px;
+}
+
+.cuadroPh .textoPh{
+    flex: 65%;
+}
+
+.cuadroAndromeda{
+    background-color: rgba(58, 41, 33, 0.611);
+    display: flex;
+    margin-bottom: 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.cuadroAndromeda .imagenAndromeda{
+    flex: 40%;
+}
+
+.cuadroAndromeda .imagenAndromeda img{
+    width: 300px;
+}
+
+.cuadroAndromeda .textoAndromeda{
+    flex: 65%;
+}
+
+.cuadroSombrero{
+    background-color: rgba(58, 41, 33, 0.611);
+    display: flex;
+    margin-bottom: 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.cuadroSombrero .imagenSombrero{
+    flex: 40%;
+}
+
+.cuadroSombrero .imagenSombrero img{
+    width: 300px;
+}
+
+.cuadroSombrero .textoSombrero{
+    flex: 65%;
+}
+
+
+
+.boton_index{
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #a57d6a;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.boton_SS{
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #a57d6a;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.boton_galaxias{
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #a57d6a;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.boton_contactos{
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #a57d6a;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.boton_sobremi{
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #a57d6a;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navegador{
+    text-align: center;
+}
